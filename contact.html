@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <style>
+        .list1 {
+            list-style-type: none;
+            width: 100%;
+            margin: 1px;
+            padding: 2px;
+            overflow:hidden
+        }
+    
+        .list1 li {
+            float: left;
+            padding: 3px;
+            border-right: 2px solid rgb(0, 0, 0);
+            border-width: 1.25px;
+            line-height: 10px;
+            height: 10px;
+    
+        }
+    
+        .form {
+            border: 1px solid rgb(122, 122, 122);
+            width: 300px;
+            border-radius: 2%;
+            margin: 15px;
+            padding: 25px;
+        }
+    
+        .form textarea {
+            resize: vertical;
+    }
+    
+</style>
+</head>
+
+<body>
+    <ul class="list1">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./education.html">Education</a></li>
+        <li><a href="./work.html">Work Experience</a></li>
+        <li><a href="#">Contact Me</a></li>
+    </ul>
+
+    <hr>
+    <h1>Contact Me</h1>
+
+        <div class="form">
+          <p>Enter Your Info.</p>
+        <form action="#">
+          <label for="Name">Your Name</label>
+          <br>
+          <input style="width: 75%;"type="text" name="Name" id="Name">
+          <br><br>
+          <label for="Email">Your E-mail</label>
+          <br>
+          <input style="width: 75%;" type="Email" name="Email" id="Email">
+          <br><br>
+          <label for="Gender">Gender</label>
+          <br>
+          <select style="width: 75%;" name="Gender" id="Gender">Gender
+            <option value="Male">Select..</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+          <br><br>
+          <textarea style="width: 75%" name="Message" id="Message" cols="30" rows="10"></textarea>
+          <br><br>
+          <button type="submit">Send</button>
+          <button type="reset">Clear</button>
+        </form>
+        </div>  
+      
+
+    
+   
+
+
+</body>
+</html>
